@@ -1,8 +1,20 @@
 # Compiled class file
+*.class
+
+target/
+
+target/*
+
+.mvn/
+
+mvn/*
 
 **/.DS_Store
-*/target/*
-*/.mvn/*
+**/target
+/target 
+
+**/.mvn
+/.mvn 
 
 # Log file
 *.log
